@@ -1,0 +1,23 @@
+{
+  "name": "rollup-me",
+  "version": "1.0.0",
+  "description": "简单版",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "acorn": "^8.8.2",
+    "magic-string": "^0.29.0"
+  },
+  "scripts": {
+    "build:rollup-1": "node ./rollup-1/debugger.js",
+    "build:rollup-2": "node ./rollup-2/debugger.js",
+    "bat": "cd ../cicd && rollup-me.bat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/liz-q/rollup-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
